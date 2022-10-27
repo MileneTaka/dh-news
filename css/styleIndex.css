@@ -1,13 +1,19 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Franklin Gothic Medium';
+    margin: 10px 300px 10px 300px;
 }
 
-p {
-    font-size: 15px;
-    font-weight: 200;
-    line-height: 20px;
-}
 
 h1 {
     color: red;
+    
 }
+
+
+
+p {
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 20px;
+}
+

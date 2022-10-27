@@ -1,0 +1,80 @@
+* {
+    font-family: sans-serif;
+}
+
+div.caixa1 {
+    background-color: #62ff00;
+    border: 5px solid black;
+
+}
+div.caixa2 {
+    background-color: blue;
+    border: 5px dotted black;
+}
+div.caixa3 {
+    background-color: crimson;
+    border: 5px double black;
+}
+
+div {
+    display: inline-block flex;
+    width: 98%;
+    height: 20px; 
+    margin: 5px;
+    padding: center;
+    /* max-width: 100%; */
+} 
+
+header {
+    border: 3px solid gray;
+    padding: 30px;
+    margin: 10px;
+    width: auto;
+}
+
+main {
+    
+    border: 3px solid gray;
+    padding: 30px;
+    margin: 10px;
+    width: 100%%;
+
+
+}
+
+footer {
+    border: 3px solid gray;
+    padding: 30px;
+    margin: 10px;
+}
+
+section.noticias {
+ 
+    border-top: 2px dotted gray;
+    border-bottom: 2px dotted gray;
+    overflow: hidden;
+}
+
+article {
+    
+/*     
+    margin: 0px 0px;
+    width: 100%;
+    display: inline-block; */
+
+    float: left;
+    width: 32%;
+    background-color: chocolate;
+    padding: 8px;
+}
+
+span {
+    background-color: purple;
+
+}
+
+@media (max-width: 1301px){
+    article {
+        width: 100%;
+    }
+}
